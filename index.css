@@ -29,3 +29,9 @@ h1{
 tr {
     margin: 100px;
 }
+
+#my-name {
+    position:absolute;
+    top:0;
+    right:0;
+}
