@@ -4,6 +4,7 @@
         <title>My Todo App</title>
         <link rel= "stylesheet" href="index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <script type="text/javascript" src="index.js"></script>
     </head>
 
     <body>
@@ -15,7 +16,7 @@
             <table>
                 <tr>
                     <th><a href="/show.html">Make the curricum </a></th>
-                     <th><span  class="pomodoro-estimate">4 pomodoros</span></th>
+                    <th><span  class="pomodoro-estimate">4 pomodoros</span></th>
                     <th><input type="checkbox"></th>
                 </tr>
             
@@ -58,8 +59,8 @@
                 
         </table>
         
-        <input type ="text" placeholder="add a new todo"><br>
-        <input type ="number" placeholder="# of pomodoros"><br>
+        <input id="new-todo-description" type ="text" placeholder="add a new todo"><br>
+        <input id="new-pomodoro-estimate" type ="number" placeholder="# of pomodoros"><br>
         <input id="add-new-todo-button" type="submit" value="Add todo">
     
     </body>
